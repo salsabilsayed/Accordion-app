@@ -29,7 +29,7 @@ class Question extends Component {
             className="col-span-1 bg-red-400 w-10 h-10 bg-purple-200 rounded-full flex justify-center items-center cursor-pointer"
             onClick={this.openHandler}
           >
-            <div className="text-red-800 text-2xl mb-1">
+            <div className="text-red-800 text-2xl">
                 {!this.state.isOpen && "+"}
                 {this.state.isOpen && "-"}
             </div>
