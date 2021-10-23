@@ -4,7 +4,7 @@ import Content from './components/Content';
 
 function App() {
   return (
-    <div className="bg-magenta h-screen flex justify-center items-center">
+    <div className="bg-magenta min-h-screen flex justify-center items-center py-10">
         <Container>
             <Content />
         </Container>

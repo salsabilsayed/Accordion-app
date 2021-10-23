@@ -23,10 +23,10 @@ class Question extends Component {
 
     return (
       <div className="border-2 border-gray-200 border-solid p-4 mb-5 shadow-lg rounded transition-all">
-        <div className="flex flex-row justify-between">
-          <p className="font-bold text-base tracking-wider">{title}</p>
+        <div className="grid grid-cols-6 md:grid-cols-8">
+          <p className="font-bold text-base tracking-wider col-span-5 md:col-span-7">{title}</p>
           <div
-            className="w-8 h-8 bg-purple-200 rounded-full flex justify-center items-center cursor-pointer"
+            className="col-span-1 bg-red-400 w-10 h-10 bg-purple-200 rounded-full flex justify-center items-center cursor-pointer"
             onClick={this.openHandler}
           >
             <div className="text-red-800 text-2xl mb-1">
